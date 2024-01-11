@@ -24,7 +24,7 @@ public class baseclass  implements frame
 		driver=new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.get(url);
-	
+	//ok
 	}
 	@AfterMethod
 	public void closeApp()
